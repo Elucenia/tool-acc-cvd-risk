@@ -1,0 +1,3 @@
+'use strict';
+const fs=require('node:fs'),api=require('./calculator.js'),ui=require('./pce2013-interface.cjs');
+const [file,locale='en']=process.argv.slice(2);if(!file||!ui.locales.includes(locale))throw Error('node cli.cjs input.json <locale>');const input=JSON.parse(fs.readFileSync(file,'utf8')),r=api.calculate(input),copy=ui.copy[locale];const out=r.error?{ok:false,code:r.code,field:r.field,message:copy.limits}:{ok:true,label:copy.result,main:[new Intl.NumberFormat(locale,{minimumFractionDigits:1,maximumFractionDigits:1}).format(r.raw.tenYearPercent),'%'],raw:r.raw,modelKey:r.modelKey,horizonYears:r.horizonYears,methodVersion:copy.methodVersion};console.log(JSON.stringify(out,null,2));process.exitCode=out.ok?0:2;

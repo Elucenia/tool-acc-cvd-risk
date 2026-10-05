@@ -1,0 +1,582 @@
+[
+  {
+    "label": "white-female-0",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicWhite",
+      "ageYears": 55,
+      "totalCholesterolMgDl": 213,
+      "hdlCholesterolMgDl": 50,
+      "systolicBpMmHg": 120,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 2.052229820249467
+      },
+      "tol": 1e-10,
+      "main": "2,1"
+    }
+  },
+  {
+    "label": "white-female-1",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicWhite",
+      "ageYears": 40,
+      "totalCholesterolMgDl": 130,
+      "hdlCholesterolMgDl": 100,
+      "systolicBpMmHg": 90,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 0.03709739617920835
+      },
+      "tol": 1e-10,
+      "main": "0,0"
+    }
+  },
+  {
+    "label": "white-female-2",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicWhite",
+      "ageYears": 79,
+      "totalCholesterolMgDl": 320,
+      "hdlCholesterolMgDl": 20,
+      "systolicBpMmHg": 200,
+      "treatedBp": "yes",
+      "smoker": "yes",
+      "diabetes": "yes",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 85.51261878486854
+      },
+      "tol": 1e-10,
+      "main": "85,5"
+    }
+  },
+  {
+    "label": "white-female-3",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicWhite",
+      "ageYears": 53.25,
+      "totalCholesterolMgDl": 197.5,
+      "hdlCholesterolMgDl": 42.5,
+      "systolicBpMmHg": 137.25,
+      "treatedBp": "yes",
+      "smoker": "yes",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 8.48219790671467
+      },
+      "tol": 1e-10,
+      "main": "8,5"
+    }
+  },
+  {
+    "label": "white-female-4",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicWhite",
+      "ageYears": 68,
+      "totalCholesterolMgDl": 245,
+      "hdlCholesterolMgDl": 36,
+      "systolicBpMmHg": 162,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "yes",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 25.963017731680814
+      },
+      "tol": 1e-10,
+      "main": "26,0"
+    }
+  },
+  {
+    "label": "white-male-0",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicWhite",
+      "ageYears": 55,
+      "totalCholesterolMgDl": 213,
+      "hdlCholesterolMgDl": 50,
+      "systolicBpMmHg": 120,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 5.3844219979087145
+      },
+      "tol": 1e-10,
+      "main": "5,4"
+    }
+  },
+  {
+    "label": "white-male-1",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicWhite",
+      "ageYears": 40,
+      "totalCholesterolMgDl": 130,
+      "hdlCholesterolMgDl": 100,
+      "systolicBpMmHg": 90,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 0.09083943571466681
+      },
+      "tol": 1e-10,
+      "main": "0,1"
+    }
+  },
+  {
+    "label": "white-male-2",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicWhite",
+      "ageYears": 79,
+      "totalCholesterolMgDl": 320,
+      "hdlCholesterolMgDl": 20,
+      "systolicBpMmHg": 200,
+      "treatedBp": "yes",
+      "smoker": "yes",
+      "diabetes": "yes",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 92.71522918124465
+      },
+      "tol": 1e-10,
+      "main": "92,7"
+    }
+  },
+  {
+    "label": "white-male-3",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicWhite",
+      "ageYears": 53.25,
+      "totalCholesterolMgDl": 197.5,
+      "hdlCholesterolMgDl": 42.5,
+      "systolicBpMmHg": 137.25,
+      "treatedBp": "yes",
+      "smoker": "yes",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 13.97317213396266
+      },
+      "tol": 1e-10,
+      "main": "14,0"
+    }
+  },
+  {
+    "label": "white-male-4",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicWhite",
+      "ageYears": 68,
+      "totalCholesterolMgDl": 245,
+      "hdlCholesterolMgDl": 36,
+      "systolicBpMmHg": 162,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "yes",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 49.143687439623456
+      },
+      "tol": 1e-10,
+      "main": "49,1"
+    }
+  },
+  {
+    "label": "african-american-female-0",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 55,
+      "totalCholesterolMgDl": 213,
+      "hdlCholesterolMgDl": 50,
+      "systolicBpMmHg": 120,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 3.026329344319297
+      },
+      "tol": 1e-10,
+      "main": "3,0"
+    }
+  },
+  {
+    "label": "african-american-female-1",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 40,
+      "totalCholesterolMgDl": 130,
+      "hdlCholesterolMgDl": 100,
+      "systolicBpMmHg": 90,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 0.013541761872041176
+      },
+      "tol": 1e-10,
+      "main": "0,0"
+    }
+  },
+  {
+    "label": "african-american-female-2",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 79,
+      "totalCholesterolMgDl": 320,
+      "hdlCholesterolMgDl": 20,
+      "systolicBpMmHg": 200,
+      "treatedBp": "yes",
+      "smoker": "yes",
+      "diabetes": "yes",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 74.08866091261832
+      },
+      "tol": 1e-10,
+      "main": "74,1"
+    }
+  },
+  {
+    "label": "african-american-female-3",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 53.25,
+      "totalCholesterolMgDl": 197.5,
+      "hdlCholesterolMgDl": 42.5,
+      "systolicBpMmHg": 137.25,
+      "treatedBp": "yes",
+      "smoker": "yes",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 14.170063769070726
+      },
+      "tol": 1e-10,
+      "main": "14,2"
+    }
+  },
+  {
+    "label": "african-american-female-4",
+    "input": {
+      "sex": "female",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 68,
+      "totalCholesterolMgDl": 245,
+      "hdlCholesterolMgDl": 36,
+      "systolicBpMmHg": 162,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "yes",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 40.32688703677115
+      },
+      "tol": 1e-10,
+      "main": "40,3"
+    }
+  },
+  {
+    "label": "african-american-male-0",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 55,
+      "totalCholesterolMgDl": 213,
+      "hdlCholesterolMgDl": 50,
+      "systolicBpMmHg": 120,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 6.0734372944925274
+      },
+      "tol": 1e-10,
+      "main": "6,1"
+    }
+  },
+  {
+    "label": "african-american-male-1",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 40,
+      "totalCholesterolMgDl": 130,
+      "hdlCholesterolMgDl": 100,
+      "systolicBpMmHg": 90,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 1.1742145762901328
+      },
+      "tol": 1e-10,
+      "main": "1,2"
+    }
+  },
+  {
+    "label": "african-american-male-2",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 79,
+      "totalCholesterolMgDl": 320,
+      "hdlCholesterolMgDl": 20,
+      "systolicBpMmHg": 200,
+      "treatedBp": "yes",
+      "smoker": "yes",
+      "diabetes": "yes",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 96.54123982745598
+      },
+      "tol": 1e-10,
+      "main": "96,5"
+    }
+  },
+  {
+    "label": "african-american-male-3",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 53.25,
+      "totalCholesterolMgDl": 197.5,
+      "hdlCholesterolMgDl": 42.5,
+      "systolicBpMmHg": 137.25,
+      "treatedBp": "yes",
+      "smoker": "yes",
+      "diabetes": "no",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 19.923430017126194
+      },
+      "tol": 1e-10,
+      "main": "19,9"
+    }
+  },
+  {
+    "label": "african-american-male-4",
+    "input": {
+      "sex": "male",
+      "population": "nonHispanicAfricanAmerican",
+      "ageYears": 68,
+      "totalCholesterolMgDl": 245,
+      "hdlCholesterolMgDl": 36,
+      "systolicBpMmHg": 162,
+      "treatedBp": "no",
+      "smoker": "no",
+      "diabetes": "yes",
+      "priorMI": "no",
+      "priorStroke": "no",
+      "priorHF": "no",
+      "priorPCI": "no",
+      "priorCABG": "no",
+      "atrialFibrillation": "no",
+      "apparentlyHealthy": "yes",
+      "historicalResearchConfirmed": "yes"
+    },
+    "expected": {
+      "raw": {
+        "tenYearPercent": 32.9969294153124
+      },
+      "tol": 1e-10,
+      "main": "33,0"
+    }
+  }
+]

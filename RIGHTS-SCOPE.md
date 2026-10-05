@@ -1,0 +1,5 @@
+# Rights and components
+
+The MIT grant covers original ELUCENIA equation implementation, strict input wrapper, authored interface copy, tests and documentation. No ACC/AHA provider source, website/interface, logos, article PDF or institutional asset is copied. The publication DOI and source URLs are references, not redistributed publications. Numerical equations and coefficients are implemented from the stated historical edition; no endorsement or current clinical guideline status is asserted.
+
+The original interface policy phrase about distribution permission is retained byte for byte and refers to third-party article/provider material; this package does not purport to grant such rights. Clinical/professional review has not been performed. The oracle script is supplied in its original source layout, with original provenance paths preserved; its already generated numerical bank is portable and used by test.cjs. The historical generator requires its original captured-source workspace to regenerate and is not a runtime dependency.

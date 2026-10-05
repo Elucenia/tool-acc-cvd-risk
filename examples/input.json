@@ -1,0 +1,19 @@
+{
+  "sex": "female",
+  "population": "nonHispanicWhite",
+  "ageYears": 55,
+  "totalCholesterolMgDl": 213,
+  "hdlCholesterolMgDl": 50,
+  "systolicBpMmHg": 120,
+  "treatedBp": "no",
+  "smoker": "no",
+  "diabetes": "no",
+  "priorMI": "no",
+  "priorStroke": "no",
+  "priorHF": "no",
+  "priorPCI": "no",
+  "priorCABG": "no",
+  "atrialFibrillation": "no",
+  "apparentlyHealthy": "yes",
+  "historicalResearchConfirmed": "yes"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@elucenia/tool-acc-cvd-risk",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Isolated ELUCENIA per-tool source candidate; synthetic evidence, not clinical approval",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "test": "node test.cjs",
+    "calculate": "node cli.cjs"
+  }
+}
